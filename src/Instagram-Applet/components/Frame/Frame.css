@@ -1,0 +1,7 @@
+.frame{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  border: solid red 2px;
+
+}

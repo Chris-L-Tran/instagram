@@ -1,0 +1,68 @@
+.output {
+  border: black solid 2px;
+}
+
+.username {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.name{
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 275px;
+}
+
+.picture {
+  background: #F0F8FF;
+  max-width: 500px;
+  max-width: 500px;
+}
+
+.comment {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.nav-buttons{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.all-comments{
+  color: grey;
+  font-size: 12px;
+  padding: 2px;
+
+}
+.text {
+  padding: 2px;
+}
+.likes {
+  padding: 2px;
+}
+.left-buttons{
+  display:flex;
+  flex-flow: row;
+  padding-left: 10px;
+}
+
+.right-buttons {
+  padding-right: 10px;
+}
