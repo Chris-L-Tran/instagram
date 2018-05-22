@@ -12,7 +12,12 @@ class Output extends Component {
     }
   }
 
-  updatePost (e) {
+  update (name, picture, comment) {
+    this.setState({
+      username: name,
+      picture: picture,
+      comment: comment
+    })
   }
 
   render () {
@@ -23,7 +28,7 @@ class Output extends Component {
             <img src={require('./Profile.png')} height={50} width={50} />
           </div>
           <div className='name'>
-            teh24thson
+            {this.state.username}
           </div>
           <div className='time'>
             1m
@@ -52,7 +57,7 @@ class Output extends Component {
         </div>
         <div className='comment'>
           <div className='likes'>20 likes</div>
-          <div className='text'>this is sample text</div>
+          <div className='text'>{this.state.comment}</div>
           <div className='all-comments'>View all 20 comments</div>
         </div>
       </div>

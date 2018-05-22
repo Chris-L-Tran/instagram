@@ -8,7 +8,7 @@ class Information extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      name: ' ',
+      username: ' ',
       picture: ' ',
       comment: ' '
     }
@@ -20,7 +20,7 @@ class Information extends Component {
   }
 
   post (e) {
-    console.log(this.state.username)
+    Output.update(this.state.username, this.state.picture, this.state.comment)
   }
 
   handleUsername (e) {
